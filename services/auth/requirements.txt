@@ -6,7 +6,7 @@ pydantic-settings==2.4.0
 python-multipart==0.0.20
 PyJWT==2.9.0
 redis==5.1.1
-celery==5.4.2
+celery==5.3.6
 boto3==1.35.84
 pymongo==4.10.1
 psycopg[binary]==3.2.3

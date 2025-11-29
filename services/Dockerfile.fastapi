@@ -12,8 +12,8 @@ RUN apt-get update \
         pymongo==4.10.1 \
         "psycopg[binary]"==3.2.3 \
         redis==5.1.1 \
-        celery==5.4.2 \
-        python-multipart==0.0.21 \
+        celery==5.3.6 \
+        python-multipart==0.0.20 \
         prometheus-client==0.21.0 \
         opentelemetry-sdk==1.28.2 \
         opentelemetry-exporter-otlp==1.28.2 \
