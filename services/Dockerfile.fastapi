@@ -1,7 +1,8 @@
-FROM python:3.11-slim AS fastapi-base
+FROM python:3.11.9-slim-bookworm AS fastapi-base
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 RUN apt-get update \
+    && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends build-essential \
     && pip install --no-cache-dir --upgrade pip==25.3 \
     && pip install --no-cache-dir \
